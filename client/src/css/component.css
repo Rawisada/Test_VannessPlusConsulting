@@ -1,0 +1,80 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 80%;
+    background-color: #f3f3f3;
+    /* margin-top: 15vh; */
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.box{
+    box-sizing: border-box;
+    width: 50%;
+}
+.img-login{
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    height: 430px;
+}
+.content{
+    padding: 0px 40px;
+
+}
+.btn-primary{
+    width: 100%;
+    background-color: #253346;
+    border: 0px;
+    margin: 20px 0px;
+}
+.colorPrimary{
+    color: #253346;
+}
+.center{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+
+}
+.box-content{
+    background-color:#f3f3f3;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.icon{
+    width: 35px;
+    margin-right: 5px;
+}
+.logout{
+    position: absolute;
+    top : 10px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .box-content{
+        width: 90%;
+    }
+
+}
