@@ -25,6 +25,7 @@ function App() {
 
   const submitForm=(e)=>{
     e.preventDefault();
+    console.log(process.env.REACT_APP_API)
     axios.post(`${process.env.REACT_APP_API}/login`, {email, password})
     .then(response=>{
         authenticate(response, () => navigate('/info'))
