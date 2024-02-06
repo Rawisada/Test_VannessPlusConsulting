@@ -45,7 +45,7 @@ function App() {
       <NavbarComponent/>
       <div className="main">
         <div class="flexbox">
-          <div className="box">
+          <div className="box none">
             <img src={study} className="img-login"/>
           </div>
           <div className="box content">

@@ -76,5 +76,14 @@
     .box-content{
         width: 90%;
     }
+    .none{
+        display: none;
+    }
+    .content{
+        padding: 100px 40px;
+        width: 100%;
+    
+    }
+   
 
 }
